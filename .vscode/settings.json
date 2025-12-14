@@ -1,0 +1,34 @@
+{
+    // Configurações Java para o Cursor
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    
+    // Formatação de código
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    
+    // Configurações de projeto Java
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "out/production/projetoCarro",
+    
+    // IntelliSense e autocompletar
+    "java.completion.enabled": true,
+    "java.completion.favoriteStaticMembers": [
+        "java.lang.Math.*",
+        "java.util.Objects.*"
+    ],
+    
+    // Organização de imports
+    "java.saveActions.organizeImports": true,
+    
+    // Configurações de aparência
+    "editor.minimap.enabled": true,
+    "editor.lineNumbers": "on",
+    "editor.rulers": [80, 120],
+    
+    // Depuração
+    "java.debug.settings.console": "integratedTerminal",
+    "java.debug.settings.hotCodeReplace": "auto"
+}
+

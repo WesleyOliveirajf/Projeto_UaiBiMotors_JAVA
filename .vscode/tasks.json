@@ -1,0 +1,58 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "🔨 Compilar Java",
+            "type": "shell",
+            "command": "javac",
+            "args": [
+                "-d",
+                "out/production/projetoCarro",
+                "-sourcepath",
+                "src",
+                "src/*.java"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$javac"],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "▶️ Executar UaiBiMotors",
+            "type": "shell",
+            "command": "java",
+            "args": [
+                "-cp",
+                "out/production/projetoCarro",
+                "UaiBiMotors"
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "dependsOn": ["🔨 Compilar Java"],
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "focus": true
+            }
+        },
+        {
+            "label": "🧹 Limpar compilação",
+            "type": "shell",
+            "command": "rm",
+            "args": [
+                "-rf",
+                "out/production/projetoCarro/*.class"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
+

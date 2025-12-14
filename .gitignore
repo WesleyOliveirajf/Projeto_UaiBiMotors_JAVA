@@ -48,8 +48,11 @@ bin/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
-.vscode/
+### VS Code / Cursor ###
+# Manter configurações do perfil, ignorar apenas cache
+.vscode/.browse.VC.db*
+.vscode/.history/
+.vscode/ipch/
 
 ### Mac OS ###
 .DS_Store

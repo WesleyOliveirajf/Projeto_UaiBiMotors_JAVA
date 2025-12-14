@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "🚗 Run UaiBiMotors",
+            "request": "launch",
+            "mainClass": "UaiBiMotors",
+            "projectName": "projetoCarro",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "🐛 Debug UaiBiMotors",
+            "request": "launch",
+            "mainClass": "UaiBiMotors",
+            "projectName": "projetoCarro",
+            "console": "integratedTerminal",
+            "stopOnEntry": false,
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 5005
+        }
+    ]
+}
+
