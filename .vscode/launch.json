@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UaiBiMotors",
+            "request": "launch",
+            "mainClass": "UaiBiMotors",
+            "projectName": "projetoCarro_8af82603"
+        },
+        {
+            "type": "java",
             "name": "🚗 Run UaiBiMotors",
             "request": "launch",
             "mainClass": "UaiBiMotors",
@@ -28,4 +35,3 @@
         }
     ]
 }
-

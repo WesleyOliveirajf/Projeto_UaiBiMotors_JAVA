@@ -1,10 +1,8 @@
-import java.sql.SQLOutput;
-
 public class UaiBiMotors {
     public static void main(String[] args) {
         Carro c1, c2;
         c1 = new Carro();
-        c2 = new Carro ();
+        c2 = new Carro();
 
         c1.setMarca(" Porsche");
         c1.setModelo("Cayenne");
@@ -20,9 +18,6 @@ public class UaiBiMotors {
         c2.setCor("cinza");
         c2.setPreco(8000);
 
-
-
-
         System.out.println("===========================");
         c2.exibirAnuncio();
 
@@ -32,17 +27,15 @@ public class UaiBiMotors {
 
         if (ipvaC1 == 0) {
             System.out.println("Veiculo Insento");
-        }
-        else {
-            System.out.println("O valor do IPva: "+ ipvaC1);
+        } else {
+            System.out.println("O valor do IPva: " + ipvaC1);
         }
 
         if (ipvaC2 == 0) {
             System.out.println("Veiculo Insento DE IMPOSTO");
+        } else {
+            System.out.println("O valor do IPva: " + ipvaC2);
         }
-        else {
-            System.out.println("O valor do IPva: "+ ipvaC2);
-        }
-        
+
     }
 }
